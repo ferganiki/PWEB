@@ -1,0 +1,92 @@
+:root {
+    --margin: 25px;
+}
+
+body {
+background: #FFD1DF;
+font-family: "Arial";
+line-height: 1.45;
+}
+
+
+.container {
+margin: 0 auto;
+width: 960px;
+}
+
+article {
+background-color: #1F0954;
+border: 1px solid #000;
+border-color: #000 #000 #000 #000;
+margin-bottom: 20px;
+padding: 10px; 
+}
+
+
+article h2 {
+border-bottom: 1px solid #000;
+margin: 0;
+}
+
+article img {
+border: 1px solid #000;
+float: left;
+margin: 10px 10px 0 0;
+padding: 2px;
+width: 260px;
+height: 160px;
+}
+
+article a { 
+color: red;
+font-weight: bold;
+}
+
+.clear { 
+clear: both;
+}
+
+footer {
+font-size: 12px;
+text-align: center;
+}
+
+section { 
+float: left;
+width: 660px;
+}
+
+aside {
+background-color: #1F0954;
+border: 1px solid #000;
+padding: 10px;
+float: right;
+width: 260px;
+}
+
+aside h3 {
+font-size: 14px;
+margin-top: 0;
+}
+
+aside ol {
+font-size: 12px;
+}
+
+.container-box {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #1F0954;
+    border-radius: 5px;
+    float: center;
+    text-align: center;
+    margin: var(--margin);
+    position: relative;
+    top: 24%;
+    left: 24%;
+    width: 500px;
+    height: 46px;
+}

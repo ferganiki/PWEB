@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="desenvolvedor, desenvolvedor de jogos"/>
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+</head>
+<body>
+    <nav id="home" class="corCinza navbar navbar-expand-lg navbar-light">
+     <a class="navbar-brand textoBranco">Fernando Gabriel Ninomiya Klinke</a>
+      <button class="navbar-toggler">
+        <a class="nav-link textoBrancoMenor" href="#sobre">
+          Sobre mim
+        </a>
+        <a class="nav-link textoBrancoMenor" href="#projetos">
+          Projetos
+        </a>
+      </button>
+    <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto"></ul>
+     <ul class="navbar-nav">
+      <li class="nav-item">
+       <a class="nav-link textoBranco" href="#sobre">Sobre mim</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+      </li>
+     </ul>
+    </div> 
+    </nav>
+    <section class="jumbotron jumbotron-fluid text-center corRosa">
+    <div class="container fa-2x">
+    <img class="fotoperfil" src="images/profilePIC.jpg" alt="Foto de perfil">
+     <h1 class="jumbotron-heading textoBranco">Fernando Gabriel Ninomiya Klinke</h1>
+      <p class="lead textoBranco">Olá, sou o <strong>Fernando</strong> e atualmente estou 
+                                  <br>cursando o 4° semestre da FATEC Sorocaba.</p>
+      <p>
+     <a href="#home" class="btn btn-dark my-2">Contato</a>
+      </p>
+     <a href="https://www.linkedin.com/in/fernando-gabriel-ninomiya-klinke-6377421a4/" target="_blank"><i class="fab fa-linkedin textoBranco"></i></a> 
+     <a href="https://github.com/ferganiki" target="_blank"><i class="icones fab fa-github textoBranco"></i></a>
+     <a href="mailto://fernandoninomiya22@gmail.com"><i class="icones fas fa-envelope textoBranco"></i></a>    
+    </div>
+    </section>
+    <div class="album py-4 bg-light" id="projetos">
+    <div class="container">
+     <h2 class="jumbotron-heading text-center titulosPretos">Projetos</h2>
+    <div class="row">
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" 
+     src="images/proj1_pac_man.png" data-holder-rendered="true">
+    <div class="card-body">
+     <p class="card-text textoPreto">Projeto foi realizado durante o curso de desenvolvimento de jogos.
+                                     Ele é uma copia simples do famoso jogo Pac-Man.
+                                     Seu desenvolvimento foi feito em Java.</p>
+    <br>
+     <ul>
+      <li>Java</li>
+      <li>Eclipse</li>
+     </ul>
+    <div class="d-flex justify-content-between align-items-center">
+    <div class="btn-group">
+     <a class="btn btn-dark textoBranco" value="Ver Projeto" onclick="verProjeto()">Ver Projeto</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" 
+     src="images/proj2_mario.png" data-holder-rendered="true">
+    <div class="card-body">
+     <p class="card-text textoPreto">Projeto foi realizado durante o curso de desenvolvimento de jogos.
+                                     Ele é uma copia simples do famoso jogo de plataforma Mario Bros.</p>
+    <br>
+     <ul>
+      <li>Java</li>
+      <li>Eclipse</li>
+     </ul>
+    <div class="d-flex justify-content-between align-items-center">
+    <div class="btn-group">
+     <a class="btn btn-dark textoBranco" value="Ver Projeto" onclick="verProjeto()">Ver Projeto</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" 
+     src="images/proj3_minecraft.png" data-holder-rendered="true">
+    <div class="card-body">
+     <p class="card-text textoPreto">Projeto foi realizado durante o curso de desenvolvimento de jogos.
+                                     Ele é uma copia do famoso jogo 3D Minecraft. 
+                                     Seu desenvolvimento foi feito em C#.</p>
+    <br>
+     <ul>
+      <li>C#</li>
+      <li>Unity</li>
+     </ul>
+    <div class="d-flex justify-content-between align-items-center">
+    <div class="btn-group">
+     <a class="btn btn-dark textoBranco" value="Ver Projeto" onclick="verProjeto()">Ver Projeto</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>  
+    </div>
+    </div>
+    </div>
+    <section class="jumbotron jumbotron-fluid text-center corRosa" id="sobre">
+    <div class="container">
+     <h2 class="completa jumbotron-heading titulosBrancos">Sobre mim</h2>
+     <p class="lead textoBranco2">Saudações, meu nome é Fernando e estou cursado Análise e Desenvolvimento de Sistemas na FATEC Sorocaba e estou atualmente no 4° semestre.</p>
+     <p class="lead textoBranco2">Completei todo meu ensino básico/médio no Colégio Dom Aguirre e, por conta disso, só comecei a estudar programação na faculdade. Sempre fui aficionado 
+                                  por jogos e, em vista disso, faço um curso de desenvolvimento de jogos com foco em diversas plataformas de desenvolvimento 
+                                  como Unity, GameMaker, Eclipse, Godot, Blender, além de aprender as principais linguagens de programação como o C++, C# e Java. 
+                                  Atualmente estou trabalhando em um projeto de um jogo e espero que no futuro eu possa postá-lo em alguma plataforma online.</p>
+    <br>
+     <p class="textoBranco3">
+      Tecnologias que conheço:
+    <div class="iconesTec">
+     <span class="iconify" data-icon="logos:c">C</span>
+     <span class="iconify" data-icon="logos:c-plusplus">C++</span>
+     <span class="iconify" data-icon="logos:c-sharp">C#</span>
+     <span class="iconify" data-icon="logos:java">Java</span>
+     <span class="iconify" data-icon="logos:unity">Unity</span>
+     <span class="iconify" data-icon="carbon:sql">SQL</span>
+     <span class="iconify" data-icon="logos:oracle">Oracle</span>
+    </div>
+     </p>
+    </div>
+    </section>
+     <script src="js/portifolio.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/397a92a397.js" crossorigin="anonymous"></script>
+     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</body>
+</html>

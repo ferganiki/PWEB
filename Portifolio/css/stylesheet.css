@@ -1,0 +1,130 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f8f9fa;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black !important;
+}
+
+.fotoperfil{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.corRosa{
+    background-color: #F19E8E;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+.corCinza{
+    background-color: #58656D;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+.icones{
+    padding-left: 15px;
+}
+
+.titulosBrancos{
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosPretos{
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.textoPreto{
+    color: black !important;
+    font-size: medium;
+    align-items: center;
+    text-align: justify;
+}
+
+.textoBrancoMenor{
+    color: white !important;
+    font-size: small;
+}
+
+.textoBranco{
+    color: white !important;
+}
+
+.textoBranco2{
+    color: white !important;
+    font-size: medium;
+    align-items: center;
+    text-align: justify;
+}
+
+.textoBranco3{
+    text-decoration: underline;
+    color: white !important;
+    font-size: medium;
+    text-align: left;
+}
+
+.completa{
+    margin-bottom: 0px;
+}
+
+.iconesTec{
+    display: flex;
+    align-items: center;
+    gap: 10x;
+}
+
+.iconesTec > svg{
+    display: inline;
+    width: 32px;
+    height: 32px;
+}
+
+.goToTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.iconePreto{
+    color: black;
+}
+
+.iconePreto:hover{
+    color: black;
+}
+
+.iconeBotao{
+    width: 32px;
+    height: 32px;
+}
+
+.iconeBotao:hover{
+    cursor: pointer;
+}

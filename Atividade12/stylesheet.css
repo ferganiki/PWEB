@@ -1,0 +1,33 @@
+body{
+    background-color: gainsboro;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0 40px;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}

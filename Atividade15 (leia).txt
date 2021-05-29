@@ -1,3 +1,5 @@
 Por algum motivo não estou conseguindo
 dar push na branch main, por isso eu
-dei upload na master.
+dei upload na master. E a pasta download
+é porque neste PC eu coloco os exercícios nela
+e não em pastas organizadas.

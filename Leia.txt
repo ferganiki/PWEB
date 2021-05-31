@@ -1,0 +1,5 @@
+Ainda estou com problemas com o git, só estou conseguindo fazer o push na master. 
+Estava tentando resolver o problema e acabei que eu exclui a Atividade15, por isso 
+ela está como se eu tivesse postado hoje. Além disso, ignore a parte escrita
+"ignorar o outro", havia escrito ela quando tinha um arquivo vazio da atividade16,
+porém consegui excluí-lo.
